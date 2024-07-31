@@ -8,6 +8,7 @@ public class ReadByteStream {
 
         try{
             FileInputStream in = new FileInputStream("hello.txt");
+
             int ch;
             while((ch=in.read())!=-1){
                 System.out.print((char)ch);

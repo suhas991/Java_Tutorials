@@ -6,6 +6,7 @@ public class WriteByteStream {
     public static void main(String[] args) {
         try{
             FileOutputStream out = new FileOutputStream("Hello.txt");
+            out.write("Welcome to india ".getBytes());
             out.write("Hello world I am here".getBytes());
             out.close();
 

@@ -10,5 +10,6 @@ public class UpdatedMethod {
 
         Path path = Paths.get("hello.txt");
         Files.lines(path).forEach(line-> System.out.println(line));
+
     }
 }
