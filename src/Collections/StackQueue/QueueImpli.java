@@ -1,7 +1,5 @@
-package StackQueue;
+package Collections.StackQueue;
 
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -16,6 +14,8 @@ public class QueueImpli {
         que.add("Yash");
 
         System.out.println(que);
+
+        que.poll();
 
         while(!que.isEmpty()){
             System.out.println("Proccesed : " + que.poll());

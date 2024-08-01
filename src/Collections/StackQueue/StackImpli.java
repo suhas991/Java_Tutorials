@@ -1,4 +1,4 @@
-package StackQueue;
+package Collections.StackQueue;
 
 import java.util.*;
 
