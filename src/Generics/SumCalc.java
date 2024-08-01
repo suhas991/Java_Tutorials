@@ -3,7 +3,7 @@ package Generics;
 import java.util.List;
 
 public class SumCalc {
-
+    //Wild card Generic example
     public static double sum(List<? extends Number> numbers){
 
         double sum =0;
